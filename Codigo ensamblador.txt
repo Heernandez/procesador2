@@ -1,0 +1,7 @@
+mov 10, %l0
+mov 8, %l1
+addcc %l1,%l0,%l2
+restore %l0,%l1,%l3
+subcc %l3,3,%l1
+save %l1,2,%l3
+andcc %l2,%l3,%o0
